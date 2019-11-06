@@ -34,20 +34,20 @@
                 </div>
             </div>
             <div class="form-group">
-                    <label for="emailAddress">Email address <span class="text-muted">(Optional)</span></label>
+                    <label for="emailAddress">Email Address: <span class="text-muted">(optional)</span></label>
                     <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="you@example.com">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-                    <label for="address1">Address</label>
+                    <label for="address1">Address 1:</label>
                     <input type="text" id="address1" class="form-control" placeholder="1234 Market St.">
             </div>
             <div class="form-group">
-                <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                <label for="address2">Address 2 <span class="text-muted">(optional)</span></label>
                 <input type="text" id="address2" class="form-control" placeholder="Apartment or Suite">
             </div>
             <div class="form-group">
-                <label for="specialNotes">Special Notes: <span class="text-muted">(Optional)</span></label>
+                <label for="specialNotes">Special Notes: <span class="text-muted">(optional)</span></label>
                 <textarea class="form-control" id="specialNotes" rows="3" aria-describedby="specialNotesHelp"></textarea>
                 <small id="specialNotesHelp" class="form-text text-muted">Include any special requests you have for us!</small>
             </div>
@@ -80,7 +80,21 @@
 
     <h1 class="text-center display-2">Part 2</h1>
     <div class="container border rounded" style="max-width: 400px;">
-       Write your second form here (and delete this line!)
+        <h4 class="text-center mb-4">Sign In</h4>
+        <form>
+            <div class="form-group">
+                <input type="email" class="form-control" id="emailAddressP2" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="passwordP2" placeholder="Password">
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember me</label>
+            </div>
+            <button type="button" class="btn btn-info btn-lg btn-block">Sign In</button>
+            <p class="text-center m-2">Not a member?&nbsp;<a class="text-info" href="#">Register</a></p>
+        </form>
     </div>
 
 
